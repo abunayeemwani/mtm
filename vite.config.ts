@@ -10,5 +10,5 @@ export default defineConfig({
     port: SERVER_PORT,
   },
   plugins: [tsconfigPaths(), react()],
-  base: "/mtm/",
+  base: "/",
 });
