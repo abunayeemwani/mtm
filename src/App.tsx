@@ -6,7 +6,7 @@ const Dashboard = lazy(async () => import("pages/Dashboard"));
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/mtm/">
       <Routes>
         <Route path="/" element={<Master />}>
           <Route index element={<Dashboard />} />
