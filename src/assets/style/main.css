@@ -1,0 +1,21 @@
+.u-overlap.u-overlap-transparent .u-header,
+.u-image,
+.u-gradient {
+  color: #111111;
+}
+
+.u-image {
+  object-fit: cover;
+  display: block;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+img.u-image {
+  overflow: hidden;
+}
+
+ /*begin-variables base-font-size*/ 
+ html { font-size: 16px; }
+ /*end-variables base-font-size*/
